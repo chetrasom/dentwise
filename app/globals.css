@@ -183,3 +183,25 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* CUSTOM */
+
+/* # Add cursor pointer to buttons by default - this is coming from tailwind docs */
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@layer utilities {
+  .h1 {
+    @apply text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight;
+  }
+  .h2 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight;
+  }
+  .h3 {
+    @apply text-2xl font-bold;
+  }
+}
