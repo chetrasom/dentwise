@@ -5,6 +5,7 @@
 
 ✅ ✔️
 #____________________________________________________________#
+I. Setup
 
 ✅🎯1. Setup:
     ✔️+ Install Next.js
@@ -30,7 +31,11 @@
 
 ✅🎯2. Push project to GitHub.
 
-✅🎯3. Building Landing Page:
+#⭐_____________________________________________________________________________________________________⭐#
+
+II. Building Landing Page.
+
+✅🎯1. Building Landing Page:
     ✔️+ Add assets /public
     ✔️+ Create folder = /components/landing
     ✔️+ Create components for homepage:
@@ -44,27 +49,52 @@
 
     ✔️+ Add class .dark in root layout
 
-    ✔️+3.1- Header section.
+    ✔️+1.1- Header section.
         ⭐ Point:
             ✔️- Add cursor pointer to buttons by default - GlobalCSS.
 
-✅🎯4. Hero section.
+✅🎯2. Hero section.
     ⭐ Point:
         ✔️- GRID background
         ✔️- GRADIENT ORBS
         ✔️- Appearance ClerkProvider in root layout. (Modal)
 
-✅🎯5. HowItWorks section.
+✅🎯3. HowItWorks section.
     ⭐ Point:
         ✔️- GRADIENT Background
 
-✅🎯6. WhatToAsk section.
+✅🎯4. WhatToAsk section.
 
-✅🎯7. Pricing section.
+✅🎯5. Pricing section.
 
-✅🎯8. CTA section.
+✅🎯6. CTA section.
  
-✅🎯9. Footer.
+✅🎯7. Footer.
 
-10. GitHub:
-    + Create a new branch "landing" and push to github
+✅🎯8. GitHub:
+    + Create a new branch "landing" and push to github:
+        ✔️- Create and pull request
+        ✔️- Review code with CodeRabbit = [ https://www.coderabbit.ai ]
+
+        ✔️- Merge pull request & Confirm merge
+        ✔️- VScode switch to main branch and request change.
+#⭐_____________________________________________________________________________________________________⭐#
+
+III. Understanding & Setting Up Prisma ORM
+
+✅🎯1. Install Prisma & generator:
+    # [ https://www.prisma.io/docs/guides/nextjs ]
+    # npm i prisma@6.16.2 --save-dev
+    # npm i @prisma/client@6.16.2
+    # npx prisma init
+
+✅🎯2. Configure your database in .env
+    # DATABASE_URL= xxx
+
+✅🎯3. Update schema.prisma, Model:
+    ✔️+ Create User model
+    ✔️+ Install prisma extension
+    ✔️+ # npx prisma db push
+
+4. GitHub:
+    + Create a new branch "prisma-schema" and push to github
