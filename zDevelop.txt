@@ -25,7 +25,46 @@
         ✔️+ Add connection sting to .env
 
     ✅🎯1.4- Vapi setup.
-        + Sign up and Create new assistant
-        + Copy assistant ID, add to .ENV
+        ✔️+ Sign up and Create new assistant
+        ✔️+ Copy assistant ID, add to .ENV
 
-🎯2. Push project to GitHub
+✅🎯2. Push project to GitHub.
+
+✅🎯3. Building Landing Page:
+    ✔️+ Add assets /public
+    ✔️+ Create folder = /components/landing
+    ✔️+ Create components for homepage:
+        <Header />
+        <Hero />
+        <HowItWorks />
+        <WhatToAsk />
+        <PricingSection />
+        <CTA />
+        <Footer />
+
+    ✔️+ Add class .dark in root layout
+
+    ✔️+3.1- Header section.
+        ⭐ Point:
+            ✔️- Add cursor pointer to buttons by default - GlobalCSS.
+
+✅🎯4. Hero section.
+    ⭐ Point:
+        ✔️- GRID background
+        ✔️- GRADIENT ORBS
+        ✔️- Appearance ClerkProvider in root layout. (Modal)
+
+✅🎯5. HowItWorks section.
+    ⭐ Point:
+        ✔️- GRADIENT Background
+
+✅🎯6. WhatToAsk section.
+
+✅🎯7. Pricing section.
+
+✅🎯8. CTA section.
+ 
+✅🎯9. Footer.
+
+10. GitHub:
+    + Create a new branch "landing" and push to github
