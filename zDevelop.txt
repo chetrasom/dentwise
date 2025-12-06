@@ -96,5 +96,29 @@ III. Understanding & Setting Up Prisma ORM
     ✔️+ Install prisma extension
     ✔️+ # npx prisma db push
 
-4. GitHub:
-    + Create a new branch "prisma-schema" and push to github
+✅🎯4. GitHub:
+    ✔️+ Create a new branch "prisma-schema" and push to github
+
+#⭐_____________________________________________________________________________________________________⭐#
+
+IV. Syncing User to Database
+
+✅🎯1. Create this file: lib/prisma.ts:
+    ✔️+ /lib/prisma.ts
+
+🎯2. syncUser function:
+    ✔️+ Create actions:
+        + /lib/actions/users.ts/syncUser function.
+    
+    ✔️+ Create dashboard page.
+    
+    ✔️+ Apply syncUser:
+        ✔️+ Logic: Use in homepage
+        ✔️+ Login with clerk - redirect auth user to dashboard
+
+    ✔️+ UserSync component
+        - use in root layout
+        - Check and neon database
+
+✅🎯3. GitHub:
+    ✔️+ Create a new branch "sync-user" and push to github
